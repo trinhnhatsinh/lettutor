@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:boilerplate/ui/home/home.dart';
 import 'package:boilerplate/ui/tutors/tutors.dart';
 import 'package:boilerplate/ui/chat/chat.dart';
+import 'package:boilerplate/ui/profile/profile.dart';
 
 class NavigationItem {
   int id;
@@ -61,7 +62,7 @@ class _MainScreenState extends State<MainScreen> {
                     ChatScreen(),
                     HomeScreen(),
                     TutorsScreen(),
-                    HomeScreen(),
+                    ProfileScreen(),
                   ])),
           Positioned(
               bottom: 0,
